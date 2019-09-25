@@ -1,0 +1,16 @@
+/*
+Theme Name: Tema Estudo WP
+Author: Lucas dos Santos
+Author URI: http://www.autoriawp.com/
+Description: My first responsive HTML5 theme
+Version: 1.0 
+*/
+* {
+  box-sizing: border-box;
+
+}
+
+body{
+	background-color: #f9f9f9;
+	font-family: Helvetica;
+}
