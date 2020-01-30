@@ -1,0 +1,88 @@
+/*
+Tema Curso Wordpress
+*/
+.header {
+	width: 100%;
+	height: 100px;
+	background-color: red;
+}
+
+.header .logo{
+	height: 100px; 
+}
+
+.menu-principal-container{
+	width: 800px;
+	display: inline;
+	float: right;
+}
+
+.menu-principal-container ul li{
+	display: inline; 
+	list-style: none;
+	margin-left: 10px;
+}
+
+.menu-principal-container ul li a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.listagem{
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+
+.listagem h2{
+	width: 95%;
+	font-family: Calibr;
+	padding-bottom: 5px;
+	border-width: 0px 0px 2px 0px;
+	border-style: solid;
+	border-color: silver;
+}
+
+.listagem .post,
+.listagem .page{
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid silver; 
+	width: 95%; 
+}
+
+.listagem .post img,
+.listagem .page img{
+	display: inline-block;
+	max-height: 100px;
+	max-width: 20%;
+	float: left;
+}
+
+.listagem .post .info,
+.listagem .page .info{
+	display: inline-block;
+	max-height: 100px; 
+}
+
+.listagem .post h3,
+.listagem .page h3 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	font-family: Calibri;
+}
+.listagem .post p,
+.listagem .page p {
+	margin-top: 5px;
+	margin-left: 10px;
+	font-family: Calibri;
+}
+
+.footer {
+	width: 100%;
+	height: 100px;
+	display: table;
+	background-color: silver;
+}
