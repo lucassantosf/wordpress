@@ -14,4 +14,4 @@
 	<div class="header">		
 		<img src="<?php echo get_template_directory_uri()?>/imgs/alfs.png" class="logo">
 		<?php wp_nav_menu(array('theme_location'=>'menu-principal') ) ?>
-	</div>
+	</div> 

@@ -1,6 +1,11 @@
 /*
 Tema Curso Wordpress
 */
+*{
+	margin: 0;
+	padding: 0;
+}
+
 .header {
 	width: 100%;
 	height: 100px;
@@ -8,7 +13,8 @@ Tema Curso Wordpress
 }
 
 .header .logo{
-	height: 100px; 
+	height: 100px;  
+	background-color: blue;
 }
 
 .menu-principal-container{
@@ -26,6 +32,12 @@ Tema Curso Wordpress
 .menu-principal-container ul li a{
 	color: #FFFFFF;
 	text-decoration: none;
+}
+
+.container{
+	padding: 20px;
+	display: table;
+	width: 100%;	
 }
 
 .listagem{
@@ -86,3 +98,16 @@ Tema Curso Wordpress
 	display: table;
 	background-color: silver;
 }
+.
+.footer .menu-rodape-um-container{
+	position: absolute;
+	display: inline-block;
+}
+
+.footer .menu-rodape-um-container ul li{
+	display: inline;
+	list-style: none;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
