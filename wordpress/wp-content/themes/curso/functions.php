@@ -2,6 +2,7 @@
 
 require_once('custom-posts/cursos.php');
 require_once('taxonomias/cidades.php');
+require_once('widgets/ultimos-posts/ultimos-posts.php');
 
 //Liberar imagens em interna de post
 add_theme_support('post-thumbnails');

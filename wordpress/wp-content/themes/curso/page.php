@@ -9,7 +9,7 @@
 			<img src="<?php echo wp_get_attachment_url(get_post_thumbnail_id());?>" >
 			<h1><?php echo get_the_title(); ?></h1> 
 			<br><br> 
-			<p><?php echo get_the_content(); ?></p> 
+			<p><?php echo the_content(); ?></p> 
 		<?php
 		}
 	?> 
