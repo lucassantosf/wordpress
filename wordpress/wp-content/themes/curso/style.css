@@ -4,24 +4,34 @@ Tema Curso Wordpress
 *{
 	margin: 0;
 	padding: 0;
+	color: black;
 }
 
 .header {
 	width: 100%;
 	height: 100px;
-	background-color: red;
+	background-color: #42a3ce;
 }
 
 .header .logo{
 	height: 100px;  
-	background-color: blue;
+	margin: 0 auto;
+	display: block; 
 }
+ 
+.menu-principal{
+	background-color: #42a3ce; 
+} 
+
+.menu-principal .container-fluid .navbar-nav li a{
+	color: #FFFFFF; 
+}    
 
 .menu-principal-container{
 	width: 800px;
 	display: inline;
 	float: right;
-}
+} 
 
 .menu-principal-container ul li{
 	display: inline; 
@@ -91,6 +101,25 @@ Tema Curso Wordpress
 	font-family: Calibri;
 }
 
+
+
+/* Widget interna pagina */ 
+.widget-ultimos-posts{
+	padding: 20px;
+	border: 1px solid silver; 
+} 
+
+.widget-ultimos-posts ul li{
+	list-style: none;
+	margin-top: 20px;
+	font-size: 18px;
+	border-width: 0px 0px 1px 0px; 
+	border-style: solid;
+	border-color: silver;
+} 
+
+
+/* Footer */
 .footer {
 	width: 100%;
 	height: 100px;
@@ -110,3 +139,6 @@ Tema Curso Wordpress
 	padding-right: 10px;
 }
 
+.container ul li a{ 
+	color: black !important;
+}

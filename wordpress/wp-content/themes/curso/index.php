@@ -42,7 +42,7 @@
 			));
 
 			foreach ($terms as $key => $term) {
-				echo '<li><a href="'.get_term_link($term->term_id,"cidades").'">'.$term->name.'</li>';
+				echo '<li><a href="'.get_term_link($term->term_id,"cidades").'">'.$term->name.'</a></li>';
 			}
 		?>
 	</div> 
