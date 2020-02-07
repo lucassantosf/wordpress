@@ -14,8 +14,12 @@
 	<script type="text/javascript" src="<?php echo get_template_directory_uri()?>/libs/bootstrap/js/bootstrap.min.js"></script>
 	
 	<!-- Carregamento Jquery-->	
-	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-
+	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>	
+	<!-- Carregamento JqueryBxSlider
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script> 
+	-->	 	
 	<?php wp_head(); ?>
 </head>
 
@@ -31,11 +35,11 @@
 	    <ul class="navbar-nav mr-auto"> 
 
 			<?php $itens = wp_nav_menu(array('theme_location'=>'menu-principal','menu_class'=>'nav-item')); ?> 
- 
+ 		
 	    </ul>
-	    <form class="form-inline my-2 my-lg-0">
-	      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+	    <form class="form-inline my-2 my-lg-0" action="<?php get_home_url('url') ?>"> 
+	      <input class="form-control mr-sm-2" type="search" placeholder="Insira" name="s" aria-label="Search">
+	      <button class="btn btn-primary my-2 my-sm-0" type="submit">Pesquisar</button>
 	    </form>
 	  </div>
 	</nav>

@@ -3,6 +3,10 @@
 ?>
 
 <div class="container">
+	<?php
+		//echo do_shortcode('[slides]'); // Chamar o id/slud do slide na funcao de ativar 
+	?>  
+	
 	<div class="listagem">
 		<h2>Cursos</h2>
 
