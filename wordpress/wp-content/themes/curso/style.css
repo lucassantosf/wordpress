@@ -17,7 +17,7 @@ Tema Curso Wordpress
 	height: 100px;  
 	margin: 0 auto;
 	display: block; 
-}
+} 
  
 .menu-principal{
 	background-color: #42a3ce; 
@@ -141,4 +141,14 @@ Tema Curso Wordpress
 
 .container ul li a{ 
 	color: black !important;
+}
+
+.search .menu a{
+	padding: 10px 20px 10px 20px;
+	width: 100px;
+	font-size: 18px;
+	font-family: Calibri;
+	border: 1px solid black;
+	display: block;
+	text-align: center; 
 }
