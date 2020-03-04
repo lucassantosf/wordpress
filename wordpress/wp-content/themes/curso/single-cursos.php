@@ -26,6 +26,7 @@
 					<br><br> 
 					<p><?php echo get_the_content(); ?></p> 
 				<?php
+					comments_template();
 				}
 			?> 
 		</div>

@@ -1,5 +1,4 @@
-//$(function(){
-
+//$(function(){ 
 	var pageSearch = 1;
 
 	$('#btnsearch').on('click',function(){
