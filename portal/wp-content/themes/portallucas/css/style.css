@@ -1,0 +1,15 @@
+/*
+Theme Name: Portal Lucas Dev;
+Description: Portal de noticias em Wordpress;
+Author: Lucas Ferreira;
+Version: 1.0;
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #fff;
+	font: 14px arial,tahoma,verdana;
+	text-align: center;
+}
