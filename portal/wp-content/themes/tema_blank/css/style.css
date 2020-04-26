@@ -1,0 +1,58 @@
+/*
+Theme Name: Blank Theme;
+Description: Portal de noticias em Wordpress;
+Author: Lucas Ferreira;
+Version: 1.0;
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #fff;
+	font: 14px arial,tahoma,verdana;
+	text-align: center;
+}
+#box{
+	
+}
+
+/*Topo*/
+#header{}
+#header-logo{}
+#header-anuncio{}
+#header-search{}
+
+/*LEFT SIDEBAR*/
+#siderbar-left{}
+
+/*CONTENT*/
+#content{}
+
+#content-destaque{}
+#content-destaque-conteudo{}
+#content-destaque-destaque{}
+
+#content-entreterimento{}
+#content-entreterimento-conteudo{}
+#content-entreterimento-anuncio{}
+
+#content-esportes{}
+#content-esportes-conteudo{}
+#content-esportes-comentados{}
+
+#content-tecnologia{}
+#content-tecnologia-destaque{}
+#content-tecnologia-conteudo{}
+
+#content-vistos{}
+#content-vistos-conteudo{}
+#content-vistos-anuncio{}
+
+/*RIGHT SIDEBAR*/
+#siderbar-right{}
+
+/*FOOTER*/
+#footer-all{}
+#footer{}
+#footer-text{}
